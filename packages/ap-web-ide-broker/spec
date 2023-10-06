@@ -1,0 +1,7 @@
+---
+name: ap-web-ide-broker
+
+dependencies: []
+
+files:
+- ap-web-ide-broker/ap-web-ide-broker.jar

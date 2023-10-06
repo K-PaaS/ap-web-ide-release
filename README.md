@@ -70,9 +70,9 @@
   
 
 
-## PAAS-TA-WEB-IDE-RELEASE-NEW
+## ap-web-ide-release
 
-본 릴리즈는 OnDemand를 지원하는 새롭게 구성된 PAAS-TA-WEB-IDE-RELEASE이다.  
+본 릴리즈는 OnDemand를 지원하는 새롭게 구성된 ap-web-ide-release이다.
 src 폴더에 각 package의 설치파일이 위치해야 한다.
 
 src <br>
@@ -84,18 +84,18 @@ src <br>
 │     └── mariadb-10.5.17-linux-x86_64.tar.gz <br>
 ├── java <br>
 │     └── jre-8u77-linux-x64.tar.gz <br>
-└── web-ide-broker <br>
-      └── web-ide-broker.jar <br>
+└── ap-web-ide-broker <br>
+      └── ap-web-ide-broker.jar <br>
 
 ```
 $ cd ~/
-$ git clone https://github.com/PaaS-TA/PAAS-TA-WEB-IDE-RELEASE-NEW.git
-$ cd ~/PAAS-TA-WEB-IDE-RELEASE-NEW
-$ wget -O src.zip  https://nextcloud.paas-ta.org/index.php/s/xNKmbPZYLAcHGeD/download
+$ git clone https://github.com/K-PaaS/ap-web-ide-release.git
+$ cd ~/ap-web-ide-release
+$ wget -O src.zip  https://nextcloud.k-paas.org/index.php/s/PBmmRoGsBbB26Le/download
 $ unzip src.zip
 ```
 
 ## Contributors ✨
-<a href="https://github.com/PaaS-TA/PAAS-TA-WEB-IDE-RELEASE-NEW/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=PaaS-TA/PAAS-TA-WEB-IDE-RELEASE-NEW" />
+<a href="https://github.com/K-PaaS/ap-web-ide-release/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=K-PaaS/ap-web-ide-release" />
 </a>
