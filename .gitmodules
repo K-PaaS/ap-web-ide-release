@@ -1,3 +1,4 @@
-[submodule "src/web-ide-broker"]
-	path = src/web-ide-broker
-	url = https://github.com/PaaS-TA/PAAS-TA-WEB-IDE-BROKER
+[submodule "src/ap-web-ide-broker"]
+	path = src/ap-web-ide-broker
+	url = https://github.com/K-PaaS/ap-web-ide-broker
+	branch = kpaas

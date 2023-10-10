@@ -1,5 +1,5 @@
 ---
-name: web-ide-broker
+name: ap-web-ide-broker
 
 templates:
   bin/service_ctl.erb: bin/service_ctl
@@ -11,10 +11,10 @@ templates:
 
 packages:
   - java
-  - web-ide-broker
+  - ap-web-ide-broker
 
 provides:
-  - {name: web-ide-broker-link, type: web-ide-broker, properties: [server.port, datasource.drive_class_name, datasource.url, datasource.password, logging.level.root.org.openpaas.servicebroker.controller, webide.servers, serviceDefinition.id, serviceDefinition.name, serviceDefinition.bullet.name, serviceDefinition.bullet.desc, serviceDefinition.plan1.id, serviceDefinition.plan1.name, serviceDefinition.plan1.desc, serviceDefinition.org_limitation, serviceDefinition.space_limitation, bosh.client_id, bosh.client_secret, bosh.url, bosh.oauth_url, bosh.deployment_name, bosh.instance_name, bosh.version, cloudfoundry.url, cloudfoundry.sslSkipValidation, cloudfoundry.admin.id, cloudfoundry.admin.password, network.static_ips]}
+  - {name: ap-web-ide-broker-link, type: ap-web-ide-broker, properties: [server.port, datasource.drive_class_name, datasource.url, datasource.password, logging.level.root.org.openpaas.servicebroker.controller, webide.servers, serviceDefinition.id, serviceDefinition.name, serviceDefinition.bullet.name, serviceDefinition.bullet.desc, serviceDefinition.plan1.id, serviceDefinition.plan1.name, serviceDefinition.plan1.desc, serviceDefinition.org_limitation, serviceDefinition.space_limitation, bosh.client_id, bosh.client_secret, bosh.url, bosh.oauth_url, bosh.deployment_name, bosh.instance_name, bosh.version, cloudfoundry.url, cloudfoundry.sslSkipValidation, cloudfoundry.admin.id, cloudfoundry.admin.password, network.static_ips]}
 
 consumes:
   - name: mariadb-link
